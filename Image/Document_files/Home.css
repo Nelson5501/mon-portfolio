@@ -1,0 +1,84 @@
+body {
+  background-color: black;
+}
+
+#metiersdunumerique {
+  margin-left: 250px;
+}
+
+#metiersdunumerique .card-body img {
+  width: 200px;
+  height: 230px;
+}
+
+#metiersdunumerique .card-body article {
+  color: black;
+  font-size: large;
+}
+
+#metiersdunumerique .card-body p {
+  color: black;
+}
+
+#metiersdunumerique .card-body a {
+  color: black;
+}
+
+#TechnicienReparateur {
+  margin-left: 560px;
+  margin-top: -322pt;
+  padding-right: 350pt;
+  width: 100em;
+}
+
+#TechnicienReparateur .card-body img {
+  width: 200px;
+  height: 230px;
+}
+
+#TechnicienReparateur .card-body article {
+  color: black;
+  font-size: large;
+}
+
+#TechnicienReparateur .card-body p {
+  color: black;
+}
+
+#TechnicienReparateur .card-body a {
+  color: black;
+}
+
+#lecode {
+  text-align: start;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+}
+
+.competences {
+  margin-right: auto;
+  margin-left: 10em;
+  padding-right: auto;
+}
+
+.competences 1 {
+  margin-right: auto;
+  margin-left: 10em;
+  padding-right: auto;
+}
+
+.competences 2 {
+  margin-right: auto;
+  margin-left: 40em;
+  padding-right: auto;
+}
+
+#BeCode article {
+  text-align: start;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+}

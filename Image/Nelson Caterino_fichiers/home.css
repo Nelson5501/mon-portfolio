@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+
+main {
+  padding: 0px;
+}
+
+metier {
+  align-content: flex;
+}
+
+.Competence {
+  text-align: center;
+  margin-left:27%;
+  width: 600px;
+}
+
+.lecode article {
+  position: initial;
+  text-align: start;
+  width: 600px;
+  margin: auto;
+  padding: auto;
+  font-size: large;
+}
+
+.becode article {
+  text-align: start;
+  width: 600px;
+  height: 345px;
+  font-size: large;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: black;
+  }
+  article {
+    width: 100px;
+  }
+}
