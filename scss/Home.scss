@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    overflow-x: hidden;
+
     
 }
 
@@ -9,7 +11,7 @@ main {
 }
 .Competence {
     text-align: center;
-    margin-left:27%;
+    margin-left:35%;
     width: 600px;
 }
 
@@ -33,11 +35,17 @@ main {
 }
 footer{
     position: static;
+    margin-left: 0.5pt;
+    overflow-x: hidden;
+
+
 }
 
 @media screen and (max-width: 500px) {
     body {
         background-color: black;
+        overflow-x: hidden;
+
     }
     .Competence {
         text-align: center;

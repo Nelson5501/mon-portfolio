@@ -126,9 +126,7 @@
       JQuery et une brève découverte de Machine learning. </article>
   </section>
   </div>
-   
   <!--=============PROGRESS-BAR START=================================-->
-
   <h4 class="text-center py-4 text-light display-4">Competence</h4>
     <div class="Competence">
                       <p style="color:white">HTML</p>
@@ -180,16 +178,6 @@
                       <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 8%" aria-valuenow="8"
                           aria-valuemin="0" aria-valuemax="100">8%</div>
-                      </div><br>
-                      <p style="color:white">GO</p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 0.5%" aria-valuenow="0.5"
-                          aria-valuemin="0" aria-valuemax="100">0.5%</div>
-                      </div><br>
-                      <p style="color:white">C</p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 0.5%" aria-valuenow="0.5"
-                          aria-valuemin="0" aria-valuemax="100">0.5%</div>
                       </div><br>
                       <p style="color:white">LINUX</p>
                       <div class="progress">

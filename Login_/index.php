@@ -66,26 +66,32 @@
 							Login
 						</button>
 					</div>
-					
-					<div class="text-center p-t-46 p-b-20">
+					<br><br>
+					<!--<div class="text-center p-t-46 p-b-20">
 						<span class="txt2">
 							<a href="/colorlib-regform-3/">sign up</a>
 						</span>
-					</div>
+					</div>-->
 
-					<div class="login100-form-social flex-c-m">
-						<a href="#" class="login100-form-social-item flex-c-m bg1 m-r-5">
-							<i class="fa fa-facebook-f" aria-hidden="true"></i>
+
+
+
+							<div class="text-center">
+					
+
+						<a href="!#" class="text-center">
+							<img src="https://img.icons8.com/color/25/000000/facebook-circled.png">
 						</a>
 
-						<a href="#" class="login100-form-social-item flex-c-m bg2 m-r-5">
-							<i class="fa fa-twitter" aria-hidden="true"></i>
+						<a href="!#" class="text-center">
+							<img src="https://img.icons8.com/color/25/000000/twitter-circled.png">
 						</a>
 					</div>
 				</form>
 
 				<div class="login100-more" style="background-image: url('images/LOGO.png');
 				background-color:black;">
+				</div>
 				</div>
 			</div>
 		</div>

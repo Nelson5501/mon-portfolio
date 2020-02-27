@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="scss/global.css">
 </head>
 <body>
-  
 <header id="header">
 <header>
       <div class="title">
@@ -21,13 +20,10 @@
       <h1 class="heading">Nelson  Caterino</h1>
       <div class="smallsep heading"></div>
 
-      <a class="smoothscroll" href="#about">
-        <div class="mouse">
           <div class="wheel"></div>
         </div>
       </a>
     </div>
-    <a class="smoothscroll" href="#about">
       <div class="scroll-down"></div>
     </a>
   </header>
@@ -50,11 +46,11 @@
               </g>
             </g>
           </svg></a></li>
-          <li><a class="smoothscroll" href="contact.php">Contact</li></a>
-          <li><a class="smoothscroll" href="Curriculumvitæ.php">Curriculum vitæ</li></a>
-          <li><a class="smoothscroll" href="portfolio.php">portfolio</a></li>
-          <li><a class="smoothscroll" href="index.php">Home</a></li>
-          <img src="Image/LOGOV2.png" style="margin-top: 25pt; margin-right:307px;" alt="navigation sur ordinateur">
+          <li><a href="contact.php">Contact</li></a>
+          <li><a href="Curriculumvitæ.php">Curriculum vitæ</li></a>
+          <li><a href="portfolio.php">portfolio</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><img src="Image/LOGOV2.png" alt="navigation sur ordinateur"></li>
           </ul>
 
   <div class="menu-wrap">
@@ -68,7 +64,8 @@
             <li><a href="Curriculumvitæ.php">Curriculum vitæ</a></li>
             <li><a href="portfolio.php">portfolio</a></li>
             <li><a href="contact.php">Contact</a></li>
-            <li><a href="Login_/index.php"><img src="Image/LOGOV2.png" alt="navigation sur ordinateur"></a></li>
+            <li><a href="Login_/index.php"></a></li>
+            <li><img src="Image/LOGOV2.png" alt="navigation sur ordinateur"></li>
           </ul>
         </div>
       </div>

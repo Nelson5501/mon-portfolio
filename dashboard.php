@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Codystar&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="scss/Dashboard.css">
+</head>
+<body>
+<a href="javascript:history.back()">Precedent</a>
+
+  <nav>
+<a href="deconnexion.php">deconnexion</a>
+</nav><br><br><br><br>
+
+
+<output>
+
+<h2>Becode@MacBook-Pro-de-Becode ~ % cd Documents</h2>
+<h2>Becode@MacBook-Pro-de-Becode Documents % % cd candidats</h2>
+<h2>Becode@MacBook-Pro-de-Becode candidats % brew search Becode</h2>
+<h2>Becode@MacBook-Pro-de-Becode candidats % please install candidats</h2>
+<h2>Becode@MacBook-Pro-de-Becode candidats % brew install candidats</h2>
+<h2>candidats was successfully completed </h2>
+<h2>Becode@MacBook-Pro-de-Becode candidats % Becode</h2><br><br><br>
+
+<style>
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+</style>
+
+  <div class="titre">
+  <h2>WeLcome On BeCoDe</h2><br>
+  </div>
+  
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+  </tr>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+
+  </tr>
+</table>
+</output>
+
+
+
+</body>
+</html>
+
+<?php require 'Footer.php' ?>
+
