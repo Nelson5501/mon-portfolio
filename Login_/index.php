@@ -79,11 +79,11 @@
 							<div class="text-center">
 					
 
-						<a href="!#" class="text-center">
+						<div class="text-center">
 							<img src="https://img.icons8.com/color/25/000000/facebook-circled.png">
 						</a>
 
-						<a href="!#" class="text-center">
+						<div class="text-center">
 							<img src="https://img.icons8.com/color/25/000000/twitter-circled.png">
 						</a>
 					</div>

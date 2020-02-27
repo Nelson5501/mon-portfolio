@@ -437,6 +437,7 @@ nav ul a:hover {
   cursor: pointer;
   font-size: 20px;
   position: absolute;
+  position: -webkit-sticky;
   right: 22px;
   top: 0;
   width: 30px;
@@ -457,7 +458,7 @@ nav ul a:hover {
 }
 
 .scroll-down {
-  position: absolute;
+  position: relative;
   left: 50%;
   bottom: 5vh;
   display: block;
@@ -638,7 +639,7 @@ nav ul a:hover {
   height: auto;
   width: 100%;
   margin: 0 auto;
-  position: relative;
+  position: static;
 }
 
 .quote {
@@ -813,7 +814,7 @@ body {
   background: var(--primary-color);
   color: #fff;
   height: 100vh;
-  position: relative;
+  position:  -ms-page;
 }
 
 .showcase:before {
@@ -868,7 +869,7 @@ body {
 }
 
 .menu-wrap .toggler {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 2;
