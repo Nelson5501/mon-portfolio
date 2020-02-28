@@ -13,17 +13,12 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 <!--===============================================================================================-->
-<!--===============================================================================================-->	
-<!--===============================================================================================-->
-<!--===============================================================================================-->
-<!--===============================================================================================-->	
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 </head>
 <body style="background-color: #666666;">
-	
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
@@ -31,7 +26,7 @@
 					<span class="login100-form-title p-b-43">
 						Login to continue
 					</span>
-					
+
 					
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 						<input class="input100" type="text" name="email">
@@ -63,7 +58,7 @@
 					
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-							Login
+							<a href="dashboard.php"></a></a>
 						</button>
 					</div>
 					<br><br>
@@ -76,14 +71,13 @@
 
 
 
-							<div class="text-center">
 					
 
-						<div class="text-center">
+						<a href="!#" class="text-center">
 							<img src="https://img.icons8.com/color/25/000000/facebook-circled.png">
 						</a>
 
-						<div class="text-center">
+						<a href="!#" class="text-center">
 							<img src="https://img.icons8.com/color/25/000000/twitter-circled.png">
 						</a>
 					</div>

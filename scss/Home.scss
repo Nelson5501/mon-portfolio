@@ -1,3 +1,4 @@
+/*VISUEL MACBOOK */
 body {
     background-color: black;
     overflow-x: hidden;
@@ -11,7 +12,8 @@ main {
 }
 .Competence {
     text-align: center;
-    margin-left:35%;
+    margin-right: auto;
+    margin-left: auto;
     width: 600px;
 }
 
@@ -40,8 +42,10 @@ footer{
 
 
 }
+/*VISUEL SMARTPHONE */
 
 @media screen and (max-width: 500px) {
+    
     body {
         background-color: black;
         overflow-x: hidden;
@@ -49,6 +53,8 @@ footer{
     }
     .Competence {
         text-align: center;
+        margin-right: auto;
+        margin-left: auto;
         width: 200px;
     }
 
@@ -61,6 +67,27 @@ footer{
         position: initial;
             }
     }
+@media print and (min-width: 1000px) {
+    body {
+            background-color: black;
+            overflow-x: hidden;
+    
+        }
+    .Competence {
+        text-align: center;
+        width: 200px;
+    }
 
+    .lecode article {
+            text-align: start;
+            width: 300px;
+            margin: auto;
+            padding: auto;
+            font-size: large;
+            position: initial;
+                }
+}
+    
+    
 
 

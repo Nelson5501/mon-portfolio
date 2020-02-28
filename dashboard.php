@@ -43,45 +43,24 @@ th, td {
   <div class="titre">
   <h2>WeLcome On BeCoDe</h2><br>
   </div>
-  
-
 <table>
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Savings</th>
+    <th>Prenom</th>
+    <th>Becode</th>
   </tr>
   <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-    <td>$100</td>
-  </tr>
+    <th>nom</th>
+    <th>Formation</th>
+    </tr>
   <tr>
-    <td>Lois</td>
-    <td>Griffin</td>
-    <td>$150</td>
-  </tr>
+    <th>Date de Naisance</th>
+    <th>01-01-2016</th>
+    </tr>
   <tr>
-    <td>Joe</td>
-    <td>Swanson</td>
-    <td>$300</td>
+    <th>Ville</th>
+    <th>Bruxelles</th>
   </tr>
-  <tr>
-    <td>Cleveland</td>
-    <td>Brown</td>
-    <td>$250</td>
-  </tr>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-    <td>$100</td>
-  </tr>
-  <tr>
+ 
 
   </tr>
 </table>

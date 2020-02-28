@@ -787,8 +787,8 @@ form {
  
   /* CORE STYLES */
 :root {
-  --primary-color: rgba(13, 110, 139, 0.75);
-  --overlay-color: rgba(24, 39, 51 , 0.85);
+  --primary-color: black;
+  --overlay-color: rgb(24, 39, 51);
   --menu-speed: 0.75s;
 }
 
@@ -870,7 +870,7 @@ body {
 
 .menu-wrap .toggler {
   position: relative;
-  top: 0;
+  top: 7px;
   left: 0;
   z-index: 2;
   cursor: pointer;
@@ -881,7 +881,7 @@ body {
 
 .menu-wrap .hamburger {
   position: absolute;
-  top: 0;
+  top: 7px;
   left: 0;
   z-index: 1;
   width: 60px;
@@ -895,7 +895,7 @@ body {
 /* Hamburger Line */
 .menu-wrap .hamburger > div {
   position: relative;
-  flex: none;
+  flex: content;
   width: 100%;
   height: 2px;
   background: #fff;
@@ -969,9 +969,9 @@ body {
 
 .menu-wrap .menu > div {
   background: var(--overlay-color);
-  border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
+  border-radius: 100%;
+  width: 300vw;
+  height: 300vw;
   display: flex;
   flex: none;
   align-items: center;
