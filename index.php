@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <h4 class="text-center py-2 text-light display-4">Découverte des métiers du numérique</h4>
+  <h2 class="text-center py-2 text-light">Découverte des métiers du numérique</h4>
 <!-- Grid row -->
 <div class="row">
 
@@ -139,45 +139,20 @@
                           <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="75"
                             aria-valuemin="0" aria-valuemax="100">65%</div>
                         </div><br>
-                        <p style="color:white">JS</p>
-                        <div class="progress">
-                          <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10"
-                            aria-valuemin="0" aria-valuemax="100">10%</div>
-                        </div><br>
                         <p style="color:white">BOOTSTRAP 4</p>
                         <div class="progress">
                           <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="600"
                             aria-valuemin="0" aria-valuemax="100">60%</div>
                         </div><br>
-                        <p style="color:white">PHP</p>
+                        <p style="color:white">SYMFONY</p>
                         <div class="progress">
                           <div class="progress-bar" role="progressbar" style="width: 13%" aria-valuenow="13"
                             aria-valuemin="0" aria-valuemax="100">13%</div>
-                        </div><br>
-                        <p style="color:white">MACHINE LEARNING</p>
-                        <div class="progress">
-                          <div class="progress-bar" role="progressbar" style="width: 2%" aria-valuenow="2"
-                            aria-valuemin="0" aria-valuemax="100">2%</div>
-                        </div><br>
-                        <p style="color:white">DJANGO</p>
-                        <div class="progress">
-                          <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15"
-                            aria-valuemin="0" aria-valuemax="100">15</div>
                         </div><br>
                       <p style="color:white">SCRATCH</p>
                       <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20"
                           aria-valuemin="0" aria-valuemax="20">20%</div>
-                      </div><br>
-                      <p style="color:white">JQUERY</p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="5"
-                          aria-valuemin="0" aria-valuemax="5">5%</div>
-                      </div><br>
-                      <p style="color:white">PYTHON</p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 8%" aria-valuenow="8"
-                          aria-valuemin="0" aria-valuemax="100">8%</div>
                       </div><br>
                       <p style="color:white">LINUX</p>
                       <div class="progress">
@@ -202,7 +177,7 @@
   </div>
   </div>
   <!--=============BECODE ?=================================-->
-  <h4 class="text-center py-4 text-light display-4">BeCode ?</h4>
+  <h4 class="text-center py-4 text-light display-4">About Me</h4>
   <section class="lecode">
     <article class="text-center py-4 text-light">Pendant ma préformation,
       j’ai eu la chance de visiter BeCode.<br><br><br>L’explication du fonctionnement de la formation,

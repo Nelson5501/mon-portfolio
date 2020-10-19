@@ -48,7 +48,7 @@
           </svg></a></li>
           <li><a href="contact.php">Contact</li></a>
           <li><a href="Curriculumvitæ.php">Curriculum vitæ</li></a>
-          <li><a href="portfolio.php">portfolio</a></li>
+          <li><a href="Portfolio.php">portfolio</a></li>
           <li><a href="index.php">Home</a></li>
           <li><img src="Image/LOGOV2.png" alt="navigation sur ordinateur"></li>
           </ul>
@@ -62,10 +62,21 @@
           <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="Curriculumvitæ.php">Curriculum vitæ</a></li>
-            <li><a href="portfolio.php">portfolio</a></li>
+            <li><a href="Portfolio.php">portfolio</a></li>
             <li><a href="contact.php">Contact</a></li>
-            <li><a href="Login_/index.php"></a></li>
-            <li><img src="Image/LOGOV2.png" alt="navigation sur ordinateur"></li>
+            <li><a href="Login_/index.php"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="22" height="22"
+            viewBox="0 0 172 172" style=" fill:#000000;">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g fill="#ffffff">
+                <path
+                  d="M86,26.875c-20.72315,0 -37.625,16.90185 -37.625,37.625c0,12.95459 6.61377,24.46045 16.62891,31.24219c-19.16943,8.23047 -32.75391,27.25293 -32.75391,49.38281h10.75c0,-23.80957 19.19043,-43 43,-43c23.80957,0 43,19.19043 43,43h10.75c0,-22.12988 -13.58447,-41.15234 -32.75391,-49.38281c10.01514,-6.78174 16.62891,-18.2876 16.62891,-31.24219c0,-20.72315 -16.90185,-37.625 -37.625,-37.625zM86,37.625c14.90723,0 26.875,11.96778 26.875,26.875c0,14.90723 -11.96777,26.875 -26.875,26.875c-14.90722,0 -26.875,-11.96777 -26.875,-26.875c0,-14.90722 11.96778,-26.875 26.875,-26.875z">
+                </path>
+              </g>
+            </g>
+          </svg></a></li>
           </ul>
         </div>
       </div>

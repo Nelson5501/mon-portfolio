@@ -1,3 +1,23 @@
+<?php
+$erreur = null;
+if (!empty($_POST['pseudo']) && !empty($_POST['motdepasse'])) {
+    if ($_POST['pseudo'] === 'Becode' && $_POST['motsdepasse'] === 'Formation') {
+        session_start();
+        $_SESSION['connecte'] = 1;
+        header('Location: Portfolio/dashboard.php');
+        exit();
+    } else {
+        $erreur = "Identifiants incorrects";
+    }
+}
+
+require 'auth/auth.php';
+if (est_connecte()) {
+    header('Location: Portfolio/dashboard.php');
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +25,7 @@
 		</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
+<!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
 <!--===============================================================================================-->
@@ -19,6 +39,12 @@
 <!--===============================================================================================-->
 </head>
 <body style="background-color: #666666;">
+<?php if ($erreur): ?>
+<div class="alert alert-danger">
+	<?=$erreur?>
+</div>
+<?php endif?>
+
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
@@ -27,27 +53,23 @@
 						Login to continue
 					</span>
 
-					
-					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+		<form action="" method="post">
+
+			<div class="wrap-input100 validate-input">
 						<input class="input100" type="text" name="email">
 						<span class="focus-input100"></span>
-						<span class="label-input100">Email</span>
+						<span class="label-input100">Pseudo</span>
 					</div>
-					
-					
-					<div class="wrap-input100 validate-input" data-validate="Password is required">
+
+
+					<div class="wrap-input100 validate-input">
 						<input class="input100" type="password" name="pass">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Password</span>
 					</div>
+					</form>
 
-					<div class="flex-sb-m w-full p-t-3 p-b-32">
-						<div class="contact100-form-checkbox">
-							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-							<label class="label-checkbox100" for="ckb1">
-								Remember me
-							</label>
-						</div>
+
 
 						<div>
 							<a href="#" class="txt1">
@@ -55,29 +77,14 @@
 							</a>
 						</div>
 					</div>
-					
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							<a href="dashboard.php"></a></a>
-						</button>
-					</div>
+
 					<br><br>
-					<!--<div class="text-center p-t-46 p-b-20">
-						<span class="txt2">
-							<a href="/colorlib-regform-3/">sign up</a>
-						</span>
-					</div>-->
 
-
-
-
-					
-
-						<a href="!#" class="text-center">
+						<a href="https://www.facebook.com/nelsoncaterino/" class="text-center">
 							<img src="https://img.icons8.com/color/25/000000/facebook-circled.png">
 						</a>
 
-						<a href="!#" class="text-center">
+						<a href="https://twitter.com/Nelson_Caterino" class="text-center">
 							<img src="https://img.icons8.com/color/25/000000/twitter-circled.png">
 						</a>
 					</div>
@@ -90,13 +97,7 @@
 			</div>
 		</div>
 	</div>
-	
-	
 
-	
-	
-
-	<script src="js/main.js"></script>
 
 </body>
 </html>

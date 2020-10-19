@@ -296,7 +296,7 @@ header {
   height: 2px;
   width: 70px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
 }
 
@@ -334,7 +334,7 @@ header {
 
 @media only screen and (max-width: 500px) {
   .title h1 {
-    font-size: 65px;
+    font-size: 35px;
   }
 }
 
@@ -944,6 +944,7 @@ form {
   .menu-wrap .menu > div {
     background: var(--overlay-color);
     border-radius: 100%;
+    margin-bottom: 100pt;
     width: 300vw;
     height: 300vw;
     display: flex;

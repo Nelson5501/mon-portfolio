@@ -1,3 +1,7 @@
+<?php 
+require 'auth/auth.php';
+utilisateur_connecte();
+?>    
 <!DOCTYPE html>
 
 <head>
